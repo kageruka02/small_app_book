@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="full-div">
+      <div class="form">
+        <form id="form" action="./index.html">
+          <div class="cross">x</div>
+          <h2>Add a book</h2>
+          <div>
+            <label for="title">title</label>
+            <input type="text" for="title" id="title" required />
+          </div>
+          <div>
+            <label for="author">author</label>
+            <input id="author" type="text" for="author" required />
+          </div>
+          <div>
+            <label for="pages">Number of Pages</label>
+            <input id="number" type="number" for="author" required min="1" />
+          </div>
+          <div>
+            <label for="pages">Read status</label>
+            <select name="status" id="status">
+              <option value="true">read</option>
+              <option value="false">unread</option>
+            </select>
+          </div>
+          <div>
+            <button class="submit" type="submit">Add</button>
+            <button class="reset" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+      <div class="library">
+        <h1>My library</h1>
+      </div>
+      <div class="books-display">
+        <div class="book-identification">
+          <span>No Books available</span>
+          <button class="newBook">New Book</button>
+        </div>
+      </div>
+    </div>
+    <div class="booklist">
+      <!-- <div class="book">
+        <div id="title-">The principles of lust</div>
+        <div id="author-">Written by hello my people</div>
+        <div id="pages-">26 pages</div>
+        <div><span id="status-">status:read</span><button id='unreadButton'>Unread</button></div>
+        <div><button class="deletebook">delete</button></div>
+      </div> -->
+    </div>
+  </body>
+</html>
