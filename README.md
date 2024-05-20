@@ -13,6 +13,10 @@ To run this project, you need a web browser that supports HTML5, CSS3, and JavaS
 
 
 
+
+
+ Click on this live link          https://kageruka02.github.io/small_app_book/ 
+
 Click the "New Book" button to open the form for adding a new book.
 
 Fill in the book details and click "Add" to add the book to your library.
